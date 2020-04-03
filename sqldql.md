@@ -1,4 +1,4 @@
-# APUNTES SQL BD DAM1
+# APUNTES SQL DQL
 
 - [Introducción](#introduccion)
 - [Comandos SQL](#comandos-sql)
