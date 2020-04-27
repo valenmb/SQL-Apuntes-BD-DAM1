@@ -64,3 +64,37 @@ Ahora podremos hacer unas pruebas:
 Siguiendo las instrucciones de los enunciados de [Proyectos de investigación](https://github.com/davidgchaves/first-steps-with-git-and-github-wirtz-asir1-and-dam1/tree/master/exercicios-ddl/1-proxectos-de-investigacion) y [Naves espaciales](https://github.com/davidgchaves/first-steps-with-git-and-github-wirtz-asir1-and-dam1/tree/master/exercicios-ddl/2-naves-espaciais), hemos hecho dos scripts:
 - [Script Proyectos de investigación](investigacion.sql)
 - [Script Naves espaciales](navesespaciais.sql)
+
+
+Para poder ejecutar los scripts en la shell de mysql, usaremos el comando
+`source /ruta_del_script/script.sql`
+
+## Comandos de la shell de mysql para visualizar nuestras bases de datos
+
+- Con el comando `show databases` podemos ver todas nuestras bases de datos:
+
+  ![image](https://github.com/valenmb/SQL-Apuntes-BD-DAM1/blob/master/img/comandosshellsql1.png)
+
+- Con el comando `use nombre_base_datos` podemos seleccionar la base de datos que queremos usar:
+
+  ![image](https://github.com/valenmb/SQL-Apuntes-BD-DAM1/blob/master/img/comandosshellsql2.png)
+  
+   ![image](https://github.com/valenmb/SQL-Apuntes-BD-DAM1/blob/master/img/comandosshellsql6.png)
+  
+- Con el comando `show tables` podremos ver todas las tablas de la base de datos en la que estemos trabajando:
+
+  ![image](https://github.com/valenmb/SQL-Apuntes-BD-DAM1/blob/master/img/comandosshellsql3.png)
+  
+  ![image](https://github.com/valenmb/SQL-Apuntes-BD-DAM1/blob/master/img/comandosshellsql7.png)
+  
+- Para ver con más detalle cada una de las tablas, podemos utilizar `desc nombre_tabla`
+
+   ![image](https://github.com/valenmb/SQL-Apuntes-BD-DAM1/blob/master/img/comandosshellsql4.png)
+   
+   ![image](https://github.com/valenmb/SQL-Apuntes-BD-DAM1/blob/master/img/comandosshellsql5.png)
+   
+   ![image](https://github.com/valenmb/SQL-Apuntes-BD-DAM1/blob/master/img/comandosshellsql8.png)
+   
+   ![image](https://github.com/valenmb/SQL-Apuntes-BD-DAM1/blob/master/img/comandosshellsql9.png)
+
+De esta forma podremos ir comprobando la estructura que hemos creado en los scripts.
